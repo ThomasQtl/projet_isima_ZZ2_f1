@@ -4,8 +4,8 @@
 ## Informations générales
 
 - `Étudiants` : Jamila KAMAL, Thomas QUENTEL
-- `École` : ESACM (École Supérieure d'Art de Clermont Métropole)
 - `Tuteur` : Jean-Thierry BODIN (jeanthierrybodin@gmail.com 06 79 69 59 98) développeur embarqué diplômé de l'ISIMA
+- `École` : ESACM (École Supérieure d'Art de Clermont Métropole)
 - `Mots clés` : Traitement du signal, Temps réel, Pilotage d'appareil
 - `Durée` : 60h par étudiant
 
