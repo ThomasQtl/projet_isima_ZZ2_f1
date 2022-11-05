@@ -18,6 +18,4 @@ Le logiciel sera installé sur ordinateur et tous les équipements utilisés ser
 
 ## Matériels/Langages
 - C
-- C#
-- MySQL
 - Labview

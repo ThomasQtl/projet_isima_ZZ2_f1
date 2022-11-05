@@ -1,0 +1,45 @@
+Réunion du 05/11/2022
+
+Ordre du jour
+-Présentation de Jean-Thierry Bodin
+-Présentation de Lauriane Charière--Fiedler
+-Présentation du projet
+-Matériel & Outils
+-Divers
+
+Jean-Thierry Bodin
+-Promo15 F1
+-Actuellement chez Hitachi Rail STS Franc S.A. en tant que validateur de logicielle dans les trains
+-Responsable des PTM de l'Anelis
+
+Lauriane Charière--Fiedler
+-Etudiante aux Beaux Arts de CF en 5ème année
+-Soeur de Cédric Charière--Fiedler
+-Elle a besoin de nous pour son projet d'étude
+
+Présentation du projet
+-Faire une oeuvre d'art connectée
+-Des microphones sont placés dans une salle, dans la rue... et en fonction de la puissance et de la 
+fréquence du son graver sur du cuivre en faisant varier l'intensité des électrolyses
+-Dans un 1er temps, il faut récupérer les signaux sonores et récupérer la puissance et la fréquence
+en faisant une analyse spectral (Transformée de Fourier)
+-Plage de fréquence => quelle puissance ?
+
+Matériel & Outils
+-Langage au choix
+-Mais JT conseille d'utiliser LabView (il peut nous aider si nécessaire)
+-Il y a des licences LabView à l'ISIMA, voir M. Cheminat
+-Microphones USB (Lauriane nous en prêtera un)
+-Commenter notre code, JT souhaite le reprendre ensuite
+
+Divers
+-Lauriane veut bien nous recevoir aux Beaux Arts (en après-midi ou soir jusqu'à 21h)
+--Lors de notre semaine de révision ? (Semaine du 28/11 au 02/12)
+-Point régulier avec JT toutes les 2-3 semaines
+--Les lundis soir 19h à l'Anelis (Pascalis, 10 All. Evariste Galois, 63000 Clermont-Ferrand)
+--Ou les jeudis après-midi vers 17h (J'ai Handitutorat toujours pour l'instant)
+-JT est prêt à lire notre rapport de projet pour le corriger
+-Une soutenance blanche nous est proposée avec JT
+-JT et Laurianne devraient être présents lors de notre soutenance fin mars
+-Mettre notre référent ISIMA en CC lorsqu'on communique avec notre tuteur pour qu'il soit au courant
+-Lauriane fait des cookies

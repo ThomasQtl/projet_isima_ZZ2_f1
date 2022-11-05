@@ -1,5 +1,2 @@
 # Questions à poser à notre tuteur
 
-Est-ce possible d'avoir Labview sur nos machines personnelles ? (Licence payante)
-Est-ce que Labview est disponible sur des ordinateurs à l'ISIMA ?
-Idem pour MySQL avec Oracle
