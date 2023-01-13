@@ -10,9 +10,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="acquisition_son.vi" Type="VI" URL="../acquisition_son.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="tentative.vi" Type="VI" URL="../tentative.vi"/>
-		<Item Name="test recup periph.vi" Type="VI" URL="../../../../Downloads/test recup periph.vi"/>
+		<Item Name="test recup periph.vi" Type="VI" URL="../test recup periph.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
