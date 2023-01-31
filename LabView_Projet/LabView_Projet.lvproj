@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="acquisition_son.vi" Type="VI" URL="../acquisition_son.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="moyennage.vi" Type="VI" URL="../moyennage.vi"/>
 		<Item Name="recuperation_microphones.vi" Type="VI" URL="../recuperation_microphones.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
