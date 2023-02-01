@@ -14,6 +14,7 @@
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="moyennage.vi" Type="VI" URL="../moyennage.vi"/>
 		<Item Name="recuperation_microphones.vi" Type="VI" URL="../recuperation_microphones.vi"/>
+		<Item Name="traitement_son.vi" Type="VI" URL="../traitement_son.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_2DArrToArrWfms.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_2DArrToArrWfms.vi"/>
