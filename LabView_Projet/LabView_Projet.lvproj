@@ -15,8 +15,7 @@
 		<Item Name="moyennage.vi" Type="VI" URL="../moyennage.vi"/>
 		<Item Name="recuperation_microphones.vi" Type="VI" URL="../recuperation_microphones.vi"/>
 		<Item Name="traitement_son.vi" Type="VI" URL="../traitement_son.vi"/>
-		<Item Name="variable_son_globale.vi" Type="VI" URL="../variable_son_globale.vi"/>
-		<Item Name="variable_stop_globale.vi" Type="VI" URL="../variable_stop_globale.vi"/>
+		<Item Name="variables_globales.vi" Type="VI" URL="../variables_globales.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_2DArrToArrWfms.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_2DArrToArrWfms.vi"/>
@@ -132,7 +131,7 @@
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/Poste de travail/variable_stop_globale.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/Poste de travail/variables_globales.vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">7</Property>
