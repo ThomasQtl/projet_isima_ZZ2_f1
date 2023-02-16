@@ -19,3 +19,11 @@ Le logiciel sera installé sur ordinateur et tous les équipements utilisés ser
 ## Matériels/Langages
 - C
 - Labview
+
+## Structure du programme:
+- main.vi
+  - recuperation_microphones.vi
+  - acquisition_son.vi
+  - traitement_son.vi
+    - moyennage.vi
+  - variable_stop_globale.vi
