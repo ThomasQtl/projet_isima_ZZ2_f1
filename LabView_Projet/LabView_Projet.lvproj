@@ -15,6 +15,7 @@
 		<Item Name="moyennage.vi" Type="VI" URL="../moyennage.vi"/>
 		<Item Name="recuperation_microphones.vi" Type="VI" URL="../recuperation_microphones.vi"/>
 		<Item Name="traitement_son.vi" Type="VI" URL="../traitement_son.vi"/>
+		<Item Name="variable_son_globale.vi" Type="VI" URL="../variable_son_globale.vi"/>
 		<Item Name="variable_stop_globale.vi" Type="VI" URL="../variable_stop_globale.vi"/>
 		<Item Name="Dépendances" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
