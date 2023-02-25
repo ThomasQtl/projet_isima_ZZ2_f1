@@ -80,7 +80,7 @@
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
 		</Item>
 		<Item Name="Spécifications de construction" Type="Build">
-			<Item Name="Installeur_JTQK_LabView" Type="Installer">
+			<Item Name="Installeur_LJTQK_LabView" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">LabView_Projet</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{B1FAED6E-6D3F-4A10-8D3F-5B4B154A076F}</Property>
@@ -132,13 +132,13 @@
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{620DBAE1-B159-4204-8186-0813C8A6434C}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/LabView_Projet_JTQK/Installeur_JTQK_LabView</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/LabView_Projet_LJTQK/Installeur_LJTQK_LabView</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Installeur_JTQK_LabView</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Installeur_LJTQK_LabView</Property>
 				<Property Name="INST_defaultDir" Type="Str">{B1FAED6E-6D3F-4A10-8D3F-5B4B154A076F}</Property>
 				<Property Name="INST_language" Type="Int">12</Property>
-				<Property Name="INST_productName" Type="Str">LabView_Projet_JTQK</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="INST_productName" Type="Str">LabView_Projet_LJTQK</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">17008005</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
@@ -150,6 +150,19 @@
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
 				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{B1FAED6E-6D3F-4A10-8D3F-5B4B154A076F}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{B1FAED6E-6D3F-4A10-8D3F-5B4B154A076F}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">projet.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">2</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">LJTQK_LabVIEW</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">LabView_Projet_JTQK</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{A7B3D1D8-355E-4579-83BC-CA2E7984EF66}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">main</Property>
+				<Property Name="Source[0].tag" Type="Ref">/Poste de travail/Spécifications de construction/main</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 			<Item Name="main" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -170,7 +183,7 @@
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguage[1]" Type="Str">French</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">2</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">projet.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/main/projet.exe</Property>
@@ -212,45 +225,6 @@
 				<Property Name="TgtF_productName" Type="Str">main</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A7B3D1D8-355E-4579-83BC-CA2E7984EF66}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">projet.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="tentative" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{7BF082A6-6EDF-4CFB-87C1-7C420E53AB00}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{D7605886-5234-4ECF-80AC-57B255ED9C8A}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{1F449E50-5768-4BCC-A17F-A6206A282D2E}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">tentative</Property>
-				<Property Name="Bld_defaultLanguage" Type="Str">French</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/tentative</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{BF97A82E-BD24-4AB4-8810-1D0A9C78BA4C}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/tentative/Application.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Répertoire de support</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/tentative/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1B7E627B-0815-4EFE-B072-5DF74BBF7708}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">tentative</Property>
-				<Property Name="TgtF_internalName" Type="Str">tentative</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 </Property>
-				<Property Name="TgtF_productName" Type="Str">tentative</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{E9736CD6-4CAB-4990-A759-3FB9BADBEBB2}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
