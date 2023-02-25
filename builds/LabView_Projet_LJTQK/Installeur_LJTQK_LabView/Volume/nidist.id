@@ -1,6 +1,10 @@
 [Volume Id]
 DistributionGUID={22B4BCE2-1A5F-4A2C-9A2C-B6E9684289B9}
+<<<<<<< HEAD
 DistPackageGUID={DCCEF7B4-6146-4CE5-A66C-18E9FE1B6326}
+=======
+DistPackageGUID={12DBE975-E9A2-414F-AC5B-D70C296D2844}
+>>>>>>> d21f22293d9f81addd01088a68fc45d827bae1dc
 DistributionVersion=1.0.5
 DistributionType=MDF
 DistributionLanguage=12
